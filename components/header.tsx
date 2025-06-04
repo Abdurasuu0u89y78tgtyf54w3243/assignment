@@ -28,7 +28,7 @@ export function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-10 flex h-14 items-center gap-4 border-b bg-background px-4 lg:px-6 shadow-sm">
+    <header className="sticky top-0 z-10 flex h-14 items-center gap-4 border-b bg-gray-400 px-4 lg:px-6 shadow-sm">
       <form className="flex-1 lg:flex-initial lg:w-64">
         <div className="relative">
           <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
